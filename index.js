@@ -14,9 +14,9 @@ function johnLennonFacts(facts) {
   var i = 0;
   while (i < facts.length) {
     emptyArray.push(facts[i] + "!!!");
-    return emptyArray;
     i++;
   }
+  return emptyArray;
 }
 
 function iLoveTheBeatles(number) {
